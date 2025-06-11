@@ -7,6 +7,6 @@
   <title>Document</title>
 </head>
 <body>
-  @include('layouts.navbar.admin')
+  @include('layouts.partials.adminnavbar')
 </body>
 </html>

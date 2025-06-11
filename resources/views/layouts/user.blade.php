@@ -7,10 +7,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <title>Main UI</title>
+  <title>User</title>
 </head>
 <body>
-  @include('layouts.navbar.user');
+  @include('layouts.partials.usernavbar');
   <div class="container">
 
   </div>
