@@ -12,9 +12,9 @@
 </head>
 <body>
   @include('layouts.partials.usernavbar')
-  <div class="container">
-    @yield('content')
-  </div>
+    <main class="container mx-auto py-8 px-4">
+        @yield('content')
+    </main>
   <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
 </body>
 </html>
